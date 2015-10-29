@@ -19,5 +19,6 @@ port: 6969
 markdown: redcarpet
 
 sass:
-  sass_dir: /css
-  style: :nested
+  # loading path from site root
+  # default to _sass
+  sass_dir: assets
