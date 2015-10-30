@@ -7,18 +7,16 @@
 
 # Site settings
 title: ABUNCHA-RANDOM
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Photography // Food // Blogs
 baseurl: "/abrandom-site" # the subpath of your site, e.g. /blog
 
 port: 6969
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
 sass:
   # loading path from site root
   # default to _sass
-  sass_dir: assets
+  sass_dir: assets/css
+  style: :nested
